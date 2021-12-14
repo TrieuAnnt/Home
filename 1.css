@@ -186,6 +186,10 @@ font-family: Verdana, Geneva, Tahoma, sans-serif;
 color: gray;
 margin: 15px;
 }
+hr{
+    width: 80%;
+    margin: 0 auto;
+}
 .featured .menu .OP{
     font-family: 'Righteous', cursive;
     font-size: 35px;
@@ -325,9 +329,5 @@ footer .bt .texta a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: gray;
     font-size: 11px;
-}
-hr{
-    width:80%;
-    margin: 0 auto;  
 }
 
