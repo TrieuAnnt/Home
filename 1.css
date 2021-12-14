@@ -1,0 +1,329 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    text-decoration: none;
+}
+header { 
+    width: 100%;
+    background: #191c24;
+    height: 62px;
+}
+.khung{
+    margin: 0 50px;
+
+}
+header .khung {
+    /* margin: 0 50px; */
+    display: flex;
+    justify-content: space-between;
+}
+header .khung a {
+    line-height: 50px;
+    font-size: 16px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+header .khung a i {
+    font-size: 16px;
+    color: #dedede;
+    font-weight: normal;
+    margin-left: 5px;
+}
+header .icon {
+    display: flex;
+}
+header .icon1:hover{
+    background:#068fd5 ;
+    border:2px solid #333;
+   transition: all 0.4s ease-in;
+}
+header .icon .icon1 {
+    margin: 0 20px;
+    display: flex;
+}
+header .icon .icon1 a {
+    font-size: 16px;
+    margin: 0 10px;
+    line-height: 50px;
+}
+header .icon .icon1 .a {
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+}
+nav {
+    width: 100%;
+}
+nav .banner{
+    background: url(./image/backrough1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+}
+nav  .banner h1 {
+    color: #fff;   
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+}
+nav ._3cot{
+    display: flex;
+    margin: 50px 0;
+}
+nav ._3cot ._cot{
+    /* padding: 80px; */
+    margin: 20px;
+    display: flex;
+
+    justify-content: center;
+}
+._cot .a{
+    display: flex;
+    flex-direction: column;
+}
+
+nav ._3cot ._cot .a .b{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+nav ._3cot ._cot a{
+    /* font-size: 16px; */
+    /* line-height: 50px; */
+    /* text-align: center; */
+}
+nav ._3cot ._cot a{
+    display: flex;
+    color: #fff;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 10px 20px;
+    text-align: center;
+    flex-direction: column;
+   justify-content: center;
+}
+nav .banner ._3cot ._cot i {
+    color: gray;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+nav .content{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+nav .content .icon1 {
+    display: flex;
+    width: 100%;
+    margin: 100px 0;
+    justify-content: space-between; 
+}
+nav  .content .icon1 .icon{
+    width:  calc((90%-100px)/3);
+    border: 2px solid #dedede;
+    padding: 20px;
+    
+}
+nav .icon1 .icon img{
+   width: 100%;
+
+}
+ .cot{
+    display: flex;
+}
+.content .icon .cot{
+    margin: 15px 0;
+    width: 100%;
+}
+nav .icon1 .icon  a {
+    font-size: 16px;
+    margin: auto 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000;
+}
+nav .icont1 .icon .cot img{
+    line-height: 40px;
+}
+nav .content .icon2 {
+    display: flex;
+    width: 100%;
+    
+    justify-content: space-between; 
+}
+nav .icon2  a {
+    font-size: 16px;
+    height: 228px;
+    margin: auto 15px;
+    
+}
+nav .icon2 a{
+    color: gray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav .icon2 a i{
+    color:#000 ;
+} 
+.featured {
+    display: flex;
+    margin: 50px 0;
+    justify-content: center;
+    
+}
+.featured .menu ul {
+    display: flex;
+    list-style: none;
+}
+.featured .menu ul li a{
+text-decoration: none;
+font-size: 10px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: gray;
+margin: 15px;
+}
+.featured .menu .OP{
+    font-family: 'Righteous', cursive;
+    font-size: 35px;
+    opacity: 0.5;
+}
+.featured .menu .OP:hover{
+    opacity: 1;
+}
+.featured .menu .VR{
+    font-family: 'Abel', sans-serif;
+    font-size: 35px;
+    opacity: 0.5;
+}
+.featured .menu .VR:hover{
+    opacity: 1;
+}
+.featured .menu .W{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 35px;
+    opacity: 0.5;
+}
+.featured .menu .W:hover{
+    opacity: 1;
+}
+.featured .menu .NTT{
+    font-size: 35px;
+    opacity: 0.5;
+}
+.featured .menu .NTT:hover{
+    opacity: 1;
+}
+.featured .menu li a img{
+    opacity: 0.5;
+}
+.featured .menu li a img:hover{
+    opacity: 1;
+}
+
+
+.featured .menu .Fearured{
+    text-decoration: none;
+    font-size: 15px;
+    color: gray;
+    }
+
+footer{
+    background: #24272e;
+    width:100%;
+    height: 245px;
+    
+}
+footer .Text {
+    display: flex;
+   padding: 50px 20px;
+
+}
+footer .Text .cot1 ul{
+
+    list-style: none;
+}
+footer .Text .cot1  ul li b{
+    margin: 20px 20px ;
+    line-height: 20px;
+    
+}
+footer .Text .cot1 .b{
+    color: #fff;
+
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+footer .Text .cot2 ul{
+
+    list-style: none;
+}
+footer .Text .cot2 .c{
+    color: #fff;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+footer .Text .cot2  ul li b{
+    margin: 10px 20px ;
+    line-height: 20px;
+
+}
+footer .Text .cot3 ul{   
+    list-style: none;
+}
+footer .Text .cot3 .d{
+    color: #fff;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+footer .Text .cot3  ul li b{
+    margin: 10px 20px ;
+    line-height: 20px;
+}
+footer .Text .cot4 ul{
+    list-style: none;
+}
+footer .Text .cot4 .e{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+footer .Text .cot4  ul li b{
+    margin: 10px 20px ;
+    line-height: 20px;
+}
+footer .Text  {
+    font-size: 10px;
+    color: rgb(165, 160, 160);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+footer .khungden{
+    display: flex;
+    justify-content: space-between;
+}
+footer .bt {
+justify-content: space-between;
+padding: 30px 0;
+}
+footer .bt .icon{
+    display: flex;
+    padding: 15px 25px;
+    justify-content: left;
+}
+footer .bt .icon .icon1 {
+    margin: 10px 5px;
+}
+footer .bt .texta{
+    padding: 20px 0;
+}
+footer .bt .texta a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: gray;
+    font-size: 11px;
+}
+
