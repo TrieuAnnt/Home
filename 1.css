@@ -326,4 +326,8 @@ footer .bt .texta a{
     color: gray;
     font-size: 11px;
 }
+hr{
+    with:80%;
+    magin: 0 auto;  
+}
 
